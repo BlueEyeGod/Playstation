@@ -1,0 +1,183 @@
+body {
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+    color: #040104;
+    margin-top: 60px;
+}
+
+.big {
+    width: 383px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 10px;
+    color: #806A74;
+}
+
+.small {
+    width: 383px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    color: #806A74;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #806A74;
+}
+
+.amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #040104;
+}
+
+.main__rec {
+    position: absolute;
+    width: 16px;
+    height: 154px;
+    left: 50px;
+    top: 261px;
+}
+
+.image {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 450px;
+    top: 170px;
+}
+
+.imgs {
+    width: 500px;
+    height: 300px;
+}
+
+.button {
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: #FF548C;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.pink {
+    background-color: rgba(255, 83, 159, 1);
+    width: 500px;
+    height: 450px;
+    margin-left: 330px;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 650px;
+    top: 100px;
+}
+
+.cross {
+    position: absolute;
+    left: 670px;
+    top: 119px;
+    bottom: 100px;
+}
+
+.add {
+    position: absolute;
+    height: 18px;
+    left: 1086px;
+    top: 308px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.rectangle {
+    margin-right: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa-brands {
+    color: #000000;
+}
+
+@media (max-width: 575px){
+    nav{
+        display: hidden;
+    }
+}
